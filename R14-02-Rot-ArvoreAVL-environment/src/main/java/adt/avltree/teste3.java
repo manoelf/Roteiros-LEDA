@@ -174,6 +174,7 @@ public class teste3 {
 		assertEquals(new Integer(4), tree.search(4).getData());
 	}
 	
+	@SuppressWarnings("unused")
 	private void printTree() {
 		System.out.print("{ ");
 		for (Comparable<Integer> e : tree.preOrder()) {
