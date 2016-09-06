@@ -25,7 +25,8 @@ public class StudentSortingTest {
     private final int TEST_TIME = 3;// in seconds
  
     Random randomer;
-    private QuickSort sorting;// PUT YOUR SORTING CLASS HERE.
+    @SuppressWarnings("rawtypes")
+	private QuickSort sorting;// PUT YOUR SORTING CLASS HERE.
     private int qtdTests;
     private boolean success;
  
@@ -139,7 +140,8 @@ public class StudentSortingTest {
  
     }
  
-    @Before
+    @SuppressWarnings("rawtypes")
+	@Before
     public void setUp() {
         this.qtdTests = 0;
         randomer = new Random();

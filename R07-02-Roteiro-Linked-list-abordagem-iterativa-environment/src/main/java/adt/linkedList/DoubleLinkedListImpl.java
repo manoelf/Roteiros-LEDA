@@ -13,7 +13,7 @@ public class DoubleLinkedListImpl<T> extends SingleLinkedListImpl<T> implements
 		
 		if (element != null) {
 			if (isEmpty()) {
-				DoubleLinkedListNode<T> newNode = new DoubleLinkedListNode<T>(element, node, null);
+				DoubleLinkedListNode<T> newNode = new DoubleLinkedListNode<T>(element, node, new DoubleLinkedListNode<T>());
 				super.head = newNode;
 				this.last = newNode;
 			} else {
@@ -29,28 +29,71 @@ public class DoubleLinkedListImpl<T> extends SingleLinkedListImpl<T> implements
 	public void insertFirst(T element) {
 		if (element != null) {
 			if (!isEmpty()) {
-				DoubleLinkedListNode<T> newNode = new DoubleLinkedListNode<T>(element, (DoubleLinkedListNode<T>) this.head, null);
-				super.head = newNode;
+				DoubleLinkedListNode<T> newNode = new DoubleLinkedListNode<T>(element, (DoubleLinkedListNode<T>) this.head, new DoubleLinkedListNode<T>());
+				head = newNode;
+				((DoubleLinkedListNode<T>)newNode.next).previous = newNode;
+				size += 1;
 			} else {
 				this.insert(element);
 			}
-			super.size += 1;
 		}		
 	}
-
+	
+	@Override
+	public void remove(T element) {
+		if (element != null) {
+			if (!this.isEmpty()) {
+				if (this.head.getData().equals(element)) {
+					removeFirst();
+				} else {
+				
+					DoubleLinkedListNode<T> prv = (DoubleLinkedListNode<T>) head;
+					DoubleLinkedListNode<T> tmp = (DoubleLinkedListNode<T>) head.getNext();
+					
+					while (!tmp.isNIL() && !(tmp.getData().equals(element))) {
+						prv = tmp;
+						tmp = (DoubleLinkedListNode<T>) tmp.getNext();
+					}
+					
+					if (tmp.getData() == last.getData()) {
+						last = prv;
+					}
+					
+					if (!tmp.isNIL()) {
+						prv.setNext(tmp.getNext());
+						((DoubleLinkedListNode<T>) tmp.next).previous = prv;
+						this.size -= 1;
+					}
+				}
+			}
+		}
+	}
+	
 	@Override
 	public void removeFirst() {
 		if (!isEmpty()) {
-			super.head = head.next;
-			super.size -= 1;
+			
+			head = head.next;
+			((DoubleLinkedListNode<T>) head).previous = new DoubleLinkedListNode<T>();
+			size -= 1;
+			
+			if (size == 0) {
+				last = (DoubleLinkedListNode<T>) head;
+			}
 		}
 	}
 
 	@Override
 	public void removeLast() {
 		if (!isEmpty()) {
-			this.last = last.previous;
-			super.size -= 1;
+			if (size == 1) {
+				last.setData(null);
+				head = last;
+			} else {
+				last = last.previous;
+				last.next = new DoubleLinkedListNode<>();
+			}
+			size -= 1;
 		}
 	}
 
@@ -75,5 +118,11 @@ public class DoubleLinkedListImpl<T> extends SingleLinkedListImpl<T> implements
 			}
 		}	
 		return array;
-	}	
+	}
+	
+	
+	public DoubleLinkedListNode<T> getHead() {
+		return (DoubleLinkedListNode<T>) head;
+	}
+	
 }

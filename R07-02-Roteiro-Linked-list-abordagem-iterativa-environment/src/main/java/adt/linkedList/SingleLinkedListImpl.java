@@ -9,7 +9,7 @@ public class SingleLinkedListImpl<T> implements LinkedList<T> {
 		this.head = new SingleLinkedListNode<T>();
 		this.size = 0;
 	}
-
+	
 	@Override
 	public boolean isEmpty() {
 		return this.head.isNIL();

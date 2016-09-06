@@ -10,6 +10,7 @@ package adt.hashtable.hashfunction;
  */
 public class HashFunctionFactory<T> {
 
+	@SuppressWarnings("rawtypes")
 	public static HashFunction createHashFunction(
 			HashFunctionClosedAddressMethod method, int tableSize) {
 		HashFunction result = null;

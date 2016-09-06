@@ -1,7 +1,5 @@
 package adt.queue;
 
-import adt.stack.StackUnderflowException;
-
 public class QueueImpl<T> implements Queue<T> {
 
 	private T[] array;
