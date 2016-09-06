@@ -2,6 +2,7 @@ package adt.avltree;
 
 import adt.bst.BSTImpl;
 import adt.bst.BSTNode;
+import adt.bt.BTNode;
 
 /**
  * 
@@ -57,23 +58,27 @@ public class AVLTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements
 	@Override
 	public void insert(T element) {
 		if (element != null) {
-			insert(element, this.getRoot(), null);
+			insert(element, this.getRoot());
 		}
 	}
 	
-	private void insert(T element, BSTNode<T> node, BSTNode<T> parent) {
+	private void insert(T element, BSTNode<T> node) {
 		if (node.isEmpty()) {
 			node.setData(element);
+			
 			node.setLeft(new BSTNode<T>());
+			node.getLeft().setParent(node);
+			
 			node.setRight(new BSTNode<T>());
-			node.setParent(parent);
+			node.getRight().setParent(node);
+			
 			rebalanceUp(node);
 		} else {
 			if (element.compareTo(node.getData()) != 0) {
 				if (element.compareTo(node.getData()) < 0) {
-					insert(element, (BSTNode<T>) node.getLeft(), (BSTNode<T>) node);
+					insert(element, (BSTNode<T>) node.getLeft());
 				} else {
-					insert(element, (BSTNode<T>) node.getRight(),(BSTNode<T>) node);
+					insert(element, (BSTNode<T>) node.getRight());
 				}
 			}
 		}
