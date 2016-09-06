@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun adt.heap.StudentMaxHeapTest.testSort" project="R13-02-Rot-Heap-environment" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testcase name="testSort" classname="adt.heap.StudentMaxHeapTest" time="0.001"/>
+</testrun>

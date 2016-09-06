@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;n&apos; in &apos;adt.heap.HeapImpl.heapsort(...)&apos; to &apos;newComparator&apos;&#x0A;- Original project: &apos;R13-02-Rot-Heap-environment&apos;&#x0A;- Original element: &apos;adt.heap.HeapImpl.heapsort(T[]).n&apos;&#x0A;- Renamed element: &apos;n&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;n&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java&lt;adt.heap{HeapImpl.java[HeapImpl~heapsort~\[QT;@n!4155!4188!4169!4169!QComparator\&lt;QT;&gt;;!0!false" name="newComparator" references="true" stamp="1473178172880" version="1.0"/>
+</session>
