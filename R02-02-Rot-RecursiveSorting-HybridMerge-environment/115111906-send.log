@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<head/><log>
+<record>
+  <date>2016-07-14T01:45:16.218-0300</date>
+  <logger>LUCAS FERNANDES DE OLIVEIRA</logger>
+  <level>FINE</level>
+  <message>File 115111906-LUCAS FERNANDES DE OLIVEIRA.zip was received. It was sent by LUCAS FERNANDES DE OLIVEIRA from IP 192.168.0.102</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2016-07-14T02:48:07.359-0300</date>
+  <logger>LUCAS FERNANDES DE OLIVEIRA</logger>
+  <level>FINE</level>
+  <message>File 115111906-LUCAS FERNANDES DE OLIVEIRA.zip was received. It was sent by LUCAS FERNANDES DE OLIVEIRA from IP 192.168.0.102</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2016-07-14T02:54:45.700-0300</date>
+  <logger>LUCAS FERNANDES DE OLIVEIRA</logger>
+  <level>FINE</level>
+  <message>File 115111906-LUCAS FERNANDES DE OLIVEIRA.zip was received. It was sent by LUCAS FERNANDES DE OLIVEIRA from IP 192.168.0.102</message>
+</record>
