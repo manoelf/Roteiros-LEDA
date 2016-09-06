@@ -889,3 +889,14 @@
 2016-09-06 17:07:24,201 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucas.oliveira/Roteiros-LEDA/R07-02-Roteiro-Linked-list-abordagem-iterativa-environment/src/main/resources
 2016-09-06 17:07:24,203 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-09-06 17:07:24,205 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucas.oliveira/Roteiros-LEDA/R07-02-Roteiro-Linked-list-abordagem-iterativa-environment/src/test/resources
+2016-09-06 17:18:14,905 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-06 17:18:14,908 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucas.oliveira/Roteiros-LEDA/R14-02-Rot-ArvoreAVL-environment/src/main/resources
+2016-09-06 17:18:14,910 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-06 17:18:14,916 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucas.oliveira/Roteiros-LEDA/R14-02-Rot-ArvoreAVL-environment/src/test/resources
+2016-09-06 17:18:20,731 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-09-06 17:18:29,532 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/lucas.oliveira/Roteiros-LEDA/R14-02-Rot-ArvoreAVL-environment
+2016-09-06 17:18:29,533 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests install
+2016-09-06 17:25:57,472 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-06 17:25:57,475 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucas.oliveira/Roteiros-LEDA/R14-02-Rot-ArvoreAVL-environment/src/main/resources
+2016-09-06 17:25:57,477 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-06 17:25:57,479 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucas.oliveira/Roteiros-LEDA/R14-02-Rot-ArvoreAVL-environment/src/test/resources

@@ -16,7 +16,6 @@ INDEX VERSION 1.129+/home/lucas.oliveira/Roteiros-LEDA/.metadata/.plugins/org.ec
 1993806519.index
 1319782252.index
 3888198363.index
-493495630.index
 2863734405.index
 2317758189.index
 1526463692.index
