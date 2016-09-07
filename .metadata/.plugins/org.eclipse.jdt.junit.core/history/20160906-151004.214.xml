@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="StudentMaxHeapTest" project="R13-02-Rot-Heap-environment" tests="4" started="4" failures="0" errors="0" ignored="0">
-  <testsuite name="adt.heap.StudentMaxHeapTest" time="0.069">
-    <testcase name="testBuild" classname="adt.heap.StudentMaxHeapTest" time="0.065"/>
-    <testcase name="testSort" classname="adt.heap.StudentMaxHeapTest" time="0.003"/>
-    <testcase name="testInsert" classname="adt.heap.StudentMaxHeapTest" time="0.0"/>
-    <testcase name="testRemove" classname="adt.heap.StudentMaxHeapTest" time="0.001"/>
-  </testsuite>
-</testrun>
