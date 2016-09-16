@@ -7,38 +7,38 @@ public class SplayTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implement
 
 	private void splay(BSTNode<T> node) {
 		
-		if (!(node == null || node.isEmpty() || node.equals(root))) {
-			if (node.getParent().equals(root)) {
-				
-				if (node.equals(node.getParent().getRight())) {
-					leftRotation(root);
-				} else if (node.equals(node.getParent().getLeft())) {
-					rightRotation(root);
-				}
-				
-			} else if (node.getParent().equals(node.getParent().getParent().getRight())) {
-				
-				if (node.equals(node.getParent().getRight())) {
-					leftRotation((BSTNode<T>) node.getParent().getParent());
-					leftRotation((BSTNode<T>) node.getParent());
-				} else if (node.equals(node.getParent().getLeft())) {
-					rightRotation((BSTNode<T>) node.getParent());
-					leftRotation((BSTNode<T>) node.getParent());
-				}
-				
-			} else if (node.getParent().equals(node.getParent().getParent().getLeft())) {
-				
-				if (node.equals(node.getParent().getLeft())) {
-					rightRotation((BSTNode<T>) node.getParent().getParent());
-					rightRotation((BSTNode<T>) node.getParent());
-				} else if (node.equals(node.getParent().getRight())) {
-					leftRotation((BSTNode<T>) node.getParent());
-					rightRotation((BSTNode<T>) node.getParent());
-				}
-				
+		if (node == null || node.isEmpty() || node.equals(root)) {
+			return;
+		} else if (node.getParent().equals(root)) {
+			
+			if (node.equals(node.getParent().getRight())) {
+				leftRotation(root);
+			} else if (node.equals(node.getParent().getLeft())) {
+				rightRotation(root);
 			}
-			splay(node);
+			
+		} else if (node.getParent().equals(node.getParent().getParent().getRight())) {
+			
+			if (node.equals(node.getParent().getRight())) {
+				leftRotation((BSTNode<T>) node.getParent().getParent());
+				leftRotation((BSTNode<T>) node.getParent());
+			} else if (node.equals(node.getParent().getLeft())) {
+				rightRotation((BSTNode<T>) node.getParent());
+				leftRotation((BSTNode<T>) node.getParent());
+			}
+			
+		} else if (node.getParent().equals(node.getParent().getParent().getLeft())) {
+			
+			if (node.equals(node.getParent().getLeft())) {
+				rightRotation((BSTNode<T>) node.getParent().getParent());
+				rightRotation((BSTNode<T>) node.getParent());
+			} else if (node.equals(node.getParent().getRight())) {
+				leftRotation((BSTNode<T>) node.getParent());
+				rightRotation((BSTNode<T>) node.getParent());
+			}
+			
 		}
+		splay(node);
 	}
 	
 	@Override
