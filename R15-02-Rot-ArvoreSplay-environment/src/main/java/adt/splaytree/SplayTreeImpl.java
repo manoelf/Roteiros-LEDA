@@ -60,11 +60,7 @@ public class SplayTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implement
 	@Override
 	public BSTNode<T> search(T element) {
 		BSTNode<T> node = super.search(element);
-		if (node.isEmpty()) {
-			splay((BSTNode<T>) node.getParent());
-		} else {
-			splay(node);
-		}
+		splay(node);
 		return node;
 	}
 
@@ -72,6 +68,7 @@ public class SplayTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implement
 	public void remove(T element) {
 		BSTNode<T> nodeProcurado = super.search(element);
 		BSTNode<T> nodeSplay = (BSTNode<T>) nodeProcurado.getParent();
+		
 		if (element != null && nodeProcurado.getData() == element) {
 			super.remove(nodeProcurado);
 			splay(nodeSplay);
