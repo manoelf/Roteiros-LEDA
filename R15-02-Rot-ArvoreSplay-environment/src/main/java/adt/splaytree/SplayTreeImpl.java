@@ -2,43 +2,51 @@ package adt.splaytree;
 
 import adt.bst.BSTImpl;
 import adt.bst.BSTNode;
+import adt.bt.Util;
 
 public class SplayTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements SplayTree<T> {
 
 	private void splay(BSTNode<T> node) {
 		
-		if (node == null || node.isEmpty() || node.equals(root)) {
-			return;
-		} else if (node.getParent().equals(root)) {
-			
-			if (node.equals(node.getParent().getRight())) {
-				leftRotation(root);
-			} else if (node.equals(node.getParent().getLeft())) {
-				rightRotation(root);
+		if (!(node == null || node.isEmpty() || node.equals(root))) {
+			if (node.getParent().equals(root)) {
+				
+				if (node.equals(node.getParent().getRight())) {
+					Util.leftRotation(root);
+				} else if (node.equals(node.getParent().getLeft())) {
+					Util.rightRotation(root);
+				}
+				
+				this.root = node;
+				
+			} else if (node.getParent().equals(node.getParent().getParent().getRight())) {
+				
+				if (node.equals(node.getParent().getRight())) {
+					Util.leftRotation((BSTNode<T>) node.getParent().getParent());
+					Util.leftRotation((BSTNode<T>) node.getParent());
+				} else if (node.equals(node.getParent().getLeft())) {
+					Util.rightRotation((BSTNode<T>) node.getParent());
+					Util.leftRotation((BSTNode<T>) node.getParent());
+				}
+				
+			} else if (node.getParent().equals(node.getParent().getParent().getLeft())) {
+				
+				if (node.equals(node.getParent().getLeft())) {
+					Util.rightRotation((BSTNode<T>) node.getParent().getParent());
+					Util.rightRotation((BSTNode<T>) node.getParent());
+				} else if (node.equals(node.getParent().getRight())) {
+					Util.leftRotation((BSTNode<T>) node.getParent());
+					Util.rightRotation((BSTNode<T>) node.getParent());
+				}
+				
 			}
 			
-		} else if (node.getParent().equals(node.getParent().getParent().getRight())) {
-			
-			if (node.equals(node.getParent().getRight())) {
-				leftRotation((BSTNode<T>) node.getParent().getParent());
-				leftRotation((BSTNode<T>) node.getParent());
-			} else if (node.equals(node.getParent().getLeft())) {
-				rightRotation((BSTNode<T>) node.getParent());
-				leftRotation((BSTNode<T>) node.getParent());
+			if (node.getParent() == null) {
+				this.root = node;
 			}
 			
-		} else if (node.getParent().equals(node.getParent().getParent().getLeft())) {
-			
-			if (node.equals(node.getParent().getLeft())) {
-				rightRotation((BSTNode<T>) node.getParent().getParent());
-				rightRotation((BSTNode<T>) node.getParent());
-			} else if (node.equals(node.getParent().getRight())) {
-				leftRotation((BSTNode<T>) node.getParent());
-				rightRotation((BSTNode<T>) node.getParent());
-			}
-			
+			splay(node);
 		}
-		splay(node);
 	}
 	
 	@Override
@@ -70,53 +78,5 @@ public class SplayTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implement
 		} else {
 			splay(nodeProcurado);
 		}
-	}
-
-	protected void leftRotation(BSTNode<T> node) {
-		BSTNode<T> pivot = (BSTNode<T>) node.getRight();
-
-		if (this.getRoot() == node) {
-			this.root = pivot;
-		} else {
-			if (node.getParent().getData().compareTo(node.getData()) > 0) {
-				node.getParent().setLeft(pivot);
-			} else {
-				node.getParent().setRight(pivot);
-			}
-		}
-
-		pivot.setParent(node.getParent());
-
-		node.setParent(pivot);
-
-		node.setRight(pivot.getLeft());
-
-		pivot.getLeft().setParent(node);
-
-		pivot.setLeft(node);
-	}
-
-	protected void rightRotation(BSTNode<T> node) {
-		BSTNode<T> pivot = (BSTNode<T>) node.getLeft();
-
-		if (this.getRoot() == node) {
-			this.root = pivot;
-		} else {
-			if (node.getParent().getData().compareTo(node.getData()) > 0) {
-				node.getParent().setLeft(pivot);
-			} else {
-				node.getParent().setRight(pivot);
-			}
-		}
-
-		pivot.setParent(node.getParent());
-
-		node.setParent(pivot);
-
-		node.setLeft(pivot.getRight());
-
-		pivot.getRight().setParent(node);
-
-		pivot.setRight(node);
 	}
 }
