@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="StudentTestRBTree" project="R16-02-Rot-ArvorePV-environment" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="adt.rbtree.StudentTestRBTree" time="0.0">
+    <testcase name="testInsert0" classname="adt.rbtree.StudentTestRBTree" time="0.0"/>
+    <testcase name="testInsert1" classname="adt.rbtree.StudentTestRBTree" time="0.0"/>
+    <testcase name="testInsert2" classname="adt.rbtree.StudentTestRBTree" time="0.0"/>
+    <testcase name="testInsert3" classname="adt.rbtree.StudentTestRBTree" time="0.0"/>
+    <testcase name="testInsert4" classname="adt.rbtree.StudentTestRBTree" time="0.0"/>
+    <testcase name="testInsert5" classname="adt.rbtree.StudentTestRBTree" time="0.0"/>
+    <testcase name="testInsert6" classname="adt.rbtree.StudentTestRBTree" time="0.0"/>
+  </testsuite>
+</testrun>
