@@ -291,3 +291,7 @@
 2016-09-16 19:35:52,342 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R15-02-Rot-ArvoreSplay-environment/src/main/resources
 2016-09-16 19:35:52,352 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-09-16 19:35:52,354 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R15-02-Rot-ArvoreSplay-environment/src/test/resources
+2016-09-16 19:42:08,240 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 19:42:08,241 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R15-02-Rot-ArvoreSplay-environment/src/main/resources
+2016-09-16 19:42:08,248 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 19:42:08,255 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R15-02-Rot-ArvoreSplay-environment/src/test/resources
