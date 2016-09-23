@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="adt.rbtree.RBTreeImpl"/>
+<fullyQualifiedTypeName name="T"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="adt.rbtree.RBNode.Colour"/>
+<fullyQualifiedTypeName name="adt.bt.BTNode"/>
+<fullyQualifiedTypeName name="adt.rbtree.RBNode"/>
+</qualifiedTypeNameHistroy>

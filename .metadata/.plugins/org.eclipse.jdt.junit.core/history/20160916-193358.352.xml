@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="StudentSplayTreeTest" project="R15-02-Rot-ArvoreSplay-environment" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="adt.splaytree.StudentSplayTreeTest" time="0.001">
-    <testcase name="testInit" classname="adt.splaytree.StudentSplayTreeTest" time="0.001"/>
-    <testcase name="testInsert" classname="adt.splaytree.StudentSplayTreeTest" time="0.0"/>
-    <testcase name="testRemove" classname="adt.splaytree.StudentSplayTreeTest" time="0.0"/>
-  </testsuite>
-</testrun>

@@ -291,3 +291,806 @@
 2016-09-16 19:35:52,342 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R15-02-Rot-ArvoreSplay-environment/src/main/resources
 2016-09-16 19:35:52,352 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-09-16 19:35:52,354 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R15-02-Rot-ArvoreSplay-environment/src/test/resources
+2016-09-16 19:42:08,240 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 19:42:08,241 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R15-02-Rot-ArvoreSplay-environment/src/main/resources
+2016-09-16 19:42:08,248 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-16 19:42:08,255 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R15-02-Rot-ArvoreSplay-environment/src/test/resources
+2016-09-21 21:13:07,744 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.ufcg.ccc:submission:1.0 @ /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/pom.xml.
+2016-09-21 21:13:10,366 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /R16-02-Rot-ArvorePV-environment/src/main/java
+2016-09-21 21:13:10,369 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /R16-02-Rot-ArvorePV-environment/src/test/java
+2016-09-21 21:13:10,650 [Worker-18] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 11 sec
+2016-09-21 21:13:12,789 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 21:13:12,823 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 21:13:12,842 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 21:13:12,843 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 21:19:16,037 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 21:19:16,038 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 21:19:16,046 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 21:19:16,047 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 22:26:51,053 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 22:26:51,123 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 22:26:51,135 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 22:26:51,136 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 22:26:52,588 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 22:26:52,589 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 22:26:52,611 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 22:26:52,620 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 22:42:12,512 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 22:42:12,513 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 22:42:12,526 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 22:42:12,527 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 22:47:29,716 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 22:47:29,717 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 22:47:29,724 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 22:47:29,725 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 22:50:08,412 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 22:50:08,436 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 22:50:08,445 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 22:50:08,470 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 22:50:19,484 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 22:50:19,490 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 22:50:19,503 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 22:50:19,504 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 22:51:09,834 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 22:51:09,843 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 22:51:09,852 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 22:51:09,853 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 22:57:59,146 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 22:57:59,148 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 22:57:59,150 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 22:57:59,151 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:01:31,625 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:01:31,627 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:01:31,641 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:01:31,641 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:01:49,875 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:01:49,877 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:01:49,891 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:01:49,893 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:02:00,560 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:02:00,561 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:02:00,567 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:02:00,578 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:02:07,202 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:02:07,204 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:02:07,206 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:02:07,207 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:05:04,741 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:05:04,748 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:05:04,751 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:05:04,763 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:05:45,777 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:05:45,778 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:05:45,809 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:05:45,812 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:06:34,881 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:06:34,882 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:06:34,885 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:06:34,886 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:06:46,286 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:06:46,294 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:06:46,308 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:06:46,309 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:09:22,141 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:09:22,142 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:09:22,151 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:09:22,161 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:10:24,050 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:10:24,051 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:10:24,062 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:10:24,062 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:10:40,012 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:10:40,013 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:10:40,020 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:10:40,024 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:11:03,134 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:11:03,135 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:11:03,141 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:11:03,142 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:12:22,567 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:12:22,568 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:12:22,576 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:12:22,577 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:14:11,666 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:14:11,667 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:14:11,678 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:14:11,679 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:14:24,734 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:14:24,736 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:14:24,738 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:14:24,739 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:14:53,863 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:14:53,864 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:14:53,877 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:14:53,877 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:17:28,148 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:17:28,149 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:17:28,175 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:17:28,176 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:20:46,638 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:20:46,639 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:20:46,645 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:20:46,646 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:20:55,251 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:20:55,260 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:20:55,263 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:20:55,272 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:21:05,050 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:21:05,060 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:21:05,069 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:21:05,071 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:21:35,492 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:21:35,493 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:21:35,512 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:21:35,516 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:21:57,190 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:21:57,198 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:21:57,202 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:21:57,203 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:22:05,685 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:22:05,691 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:22:05,693 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:22:05,694 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:22:16,632 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:22:16,633 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:22:16,646 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:22:16,646 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:22:47,802 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:22:47,802 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:22:47,816 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:22:47,817 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:22:57,070 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:22:57,079 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:22:57,082 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:22:57,083 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:23:31,506 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:23:31,512 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:23:31,517 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:23:31,520 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:23:41,092 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:23:41,093 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:23:41,095 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:23:41,096 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:23:53,622 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:23:53,623 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:23:53,625 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:23:53,626 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:25:32,614 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:25:32,631 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:25:32,634 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:25:32,637 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:25:40,449 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:25:40,454 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:25:40,463 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:25:40,467 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:25:46,638 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:25:46,639 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:25:46,642 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:25:46,648 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:26:01,417 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:26:01,418 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:26:01,423 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:26:01,428 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:26:10,903 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:26:10,904 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:26:10,906 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:26:10,907 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:28:28,275 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:28:28,280 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:28:28,294 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:28:28,294 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:28:35,196 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:28:35,197 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:28:35,199 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:28:35,210 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:29:57,729 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:29:57,730 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:29:57,740 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:29:57,741 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:30:08,802 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:30:08,809 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:30:08,823 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:30:08,831 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:31:38,384 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:31:38,388 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:31:38,390 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:31:38,394 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:33:44,277 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:33:44,278 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:33:44,280 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:33:44,281 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:33:53,357 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:33:53,358 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:33:53,365 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:33:53,366 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:34:37,161 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:34:37,162 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:34:37,176 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:34:37,178 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:34:59,334 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:34:59,335 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:34:59,350 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:34:59,351 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:35:06,637 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:35:06,641 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:35:06,645 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:35:06,646 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:35:17,855 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:35:17,856 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:35:17,859 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:35:17,860 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:35:23,919 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:35:23,919 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:35:23,925 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:35:23,944 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:51:14,709 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:51:14,730 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:51:14,740 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:51:14,741 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:51:46,001 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:51:46,002 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:51:46,004 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:51:46,005 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:52:02,752 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:52:02,753 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:52:02,773 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:52:02,774 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:52:26,877 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:52:26,884 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:52:26,906 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:52:26,909 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:52:40,500 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:52:40,502 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:52:40,505 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:52:40,514 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:52:57,185 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:52:57,254 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:52:57,263 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:52:57,268 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:53:20,496 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:53:20,497 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:53:20,506 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:53:20,508 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:55:21,108 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:55:21,109 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:55:21,120 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:55:21,128 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:56:51,015 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:56:51,017 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:56:51,019 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:56:51,020 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-21 23:59:14,478 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:59:14,480 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-21 23:59:14,482 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-21 23:59:14,483 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 00:06:48,647 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:06:48,649 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 00:06:48,658 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:06:48,659 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 00:11:27,963 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:11:27,975 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 00:11:27,979 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:11:27,981 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 00:12:26,692 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:12:26,694 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 00:12:26,717 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:12:26,724 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 00:12:34,783 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:12:34,785 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 00:12:34,787 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:12:34,788 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 00:12:44,542 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:12:44,551 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 00:12:44,553 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:12:44,554 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 00:12:59,497 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:12:59,498 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 00:12:59,512 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:12:59,513 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 00:13:12,509 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:13:12,512 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 00:13:12,514 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:13:12,522 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 00:13:24,180 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:13:24,181 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 00:13:24,189 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:13:24,197 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 00:16:13,629 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:16:13,630 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 00:16:13,632 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:16:13,633 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 00:19:00,622 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:19:00,635 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 00:19:00,637 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:19:00,638 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 00:19:37,014 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:19:37,015 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 00:19:37,025 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:19:37,026 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 00:23:40,909 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:23:40,909 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 00:23:40,911 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:23:40,916 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 00:26:08,749 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:26:08,753 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 00:26:08,761 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:26:08,763 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 00:26:32,448 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:26:32,456 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 00:26:32,469 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:26:32,469 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 00:32:23,765 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:32:23,773 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 00:32:23,793 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:32:23,807 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 00:32:52,151 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:32:52,160 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 00:32:52,169 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:32:52,171 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 00:34:55,634 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:34:55,640 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 00:34:55,648 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:34:55,649 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 00:45:59,062 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:45:59,091 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 00:45:59,097 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:45:59,112 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 00:47:23,374 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:47:23,375 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 00:47:23,391 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:47:23,392 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 00:48:23,735 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:48:23,736 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 00:48:23,738 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:48:23,751 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 00:49:29,195 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:49:29,196 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 00:49:29,216 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:49:29,217 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 00:52:33,420 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:52:33,421 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 00:52:33,426 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:52:33,427 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 00:58:44,578 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:58:44,579 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 00:58:44,587 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 00:58:44,588 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:01:06,397 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:01:06,400 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:01:06,408 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:01:06,409 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:04:19,684 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:04:19,693 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:04:19,695 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:04:19,711 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:06:08,457 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:06:08,464 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:06:08,468 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:06:08,472 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:07:25,580 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:07:25,580 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:07:25,582 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:07:25,595 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:09:05,265 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:09:05,266 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:09:05,268 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:09:05,280 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:14:28,502 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:14:28,503 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:14:28,517 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:14:28,518 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:16:16,442 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:16:16,442 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:16:16,455 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:16:16,456 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:16:28,772 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:16:28,775 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:16:28,777 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:16:28,782 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:17:27,885 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:17:27,889 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:17:27,896 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:17:27,897 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:17:35,935 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:17:35,954 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:17:35,957 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:17:35,958 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:19:04,367 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:19:04,370 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:19:04,378 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:19:04,380 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:19:20,519 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:19:20,520 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:19:20,522 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:19:20,524 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:20:23,640 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:20:23,641 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:20:23,650 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:20:23,654 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:20:36,343 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:20:36,344 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:20:36,346 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:20:36,347 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:20:45,903 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:20:45,904 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:20:45,905 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:20:45,906 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:21:01,265 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:21:01,280 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:21:01,282 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:21:01,283 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:21:19,748 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:21:19,749 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:21:19,751 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:21:19,754 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:21:27,729 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:21:27,730 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:21:27,732 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:21:27,733 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:21:33,691 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:21:33,692 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:21:33,700 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:21:33,701 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:22:18,732 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:22:18,733 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:22:18,735 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:22:18,735 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:25:34,253 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:25:34,254 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:25:34,256 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:25:34,257 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:25:45,649 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:25:45,654 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:25:45,658 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:25:45,659 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:27:16,998 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:27:16,999 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:27:17,021 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:27:17,022 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:31:02,019 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:31:02,023 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:31:02,026 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:31:02,027 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:31:25,678 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:31:25,679 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:31:25,681 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:31:25,682 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:33:36,252 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:33:36,253 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:33:36,255 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:33:36,266 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:33:56,542 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:33:56,543 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:33:56,548 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:33:56,549 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:34:04,671 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:34:04,673 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:34:04,676 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:34:04,679 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:34:25,314 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:34:25,315 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:34:25,321 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:34:25,324 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:36:08,672 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:36:08,673 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:36:08,675 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:36:08,692 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:38:52,278 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:38:52,279 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:38:52,289 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:38:52,289 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:40:20,885 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:40:20,886 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:40:20,896 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:40:20,913 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:40:29,681 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:40:29,685 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:40:29,688 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:40:29,690 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:40:50,296 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:40:50,297 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:40:50,298 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:40:50,300 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:41:01,484 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:41:01,485 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:41:01,487 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:41:01,488 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:41:14,314 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:41:14,322 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:41:14,328 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:41:14,329 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:41:23,429 [Worker-93] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:41:23,432 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:41:23,436 [Worker-93] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:41:23,441 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:46:09,436 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:46:09,437 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:46:09,439 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:46:09,455 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:46:49,967 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:46:49,968 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:46:49,970 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:46:49,971 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:48:15,616 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:48:15,617 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:48:15,619 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:48:15,620 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:48:25,808 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:48:25,809 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:48:25,811 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:48:25,812 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:49:19,306 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:49:19,307 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:49:19,323 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:49:19,324 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:49:29,241 [Worker-93] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:49:29,242 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:49:29,244 [Worker-93] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:49:29,254 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:51:56,209 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:51:56,210 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:51:56,212 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:51:56,213 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:53:38,974 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:53:38,975 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:53:38,977 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:53:38,977 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:53:56,962 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:53:56,963 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:53:56,971 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:53:56,974 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:54:45,021 [Worker-93] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:54:45,022 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:54:45,038 [Worker-93] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:54:45,039 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:55:03,130 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:55:03,131 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:55:03,145 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:55:03,146 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 01:59:42,027 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:59:42,028 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 01:59:42,030 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 01:59:42,031 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:01:41,821 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:01:41,823 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:01:41,825 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:01:41,833 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:02:16,529 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:02:16,529 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:02:16,532 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:02:16,533 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:04:58,035 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:04:58,037 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:04:58,043 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:04:58,046 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:05:19,433 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:05:19,433 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:05:19,435 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:05:19,436 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:05:57,488 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:05:57,489 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:05:57,491 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:05:57,492 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:06:53,181 [Worker-96] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:06:53,190 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:06:53,192 [Worker-96] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:06:53,193 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:13:31,669 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:13:31,684 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:13:31,689 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:13:31,696 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:17:27,324 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:17:27,331 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:17:27,333 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:17:27,333 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:22:46,743 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:22:46,743 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:22:46,756 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:22:46,757 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:23:55,983 [Worker-100] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:23:55,984 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:23:55,990 [Worker-100] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:23:55,991 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:24:18,300 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:24:18,301 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:24:18,302 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:24:18,303 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:28:54,133 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:28:54,133 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:28:54,143 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:28:54,148 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:29:08,157 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:29:08,164 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:29:08,166 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:29:08,166 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:30:15,620 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:30:15,621 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:30:15,622 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:30:15,623 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:31:48,089 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:31:48,090 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:31:48,092 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:31:48,092 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:32:35,854 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:32:35,855 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:32:35,856 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:32:35,857 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:32:48,225 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:32:48,226 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:32:48,228 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:32:48,229 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:32:48,756 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:32:48,757 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:32:48,759 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:32:48,759 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:45:59,415 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:45:59,428 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:45:59,430 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:45:59,439 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:46:49,565 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:46:49,566 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:46:49,567 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:46:49,568 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:47:06,671 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:47:06,672 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:47:06,673 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:47:06,674 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:49:52,622 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:49:52,624 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:49:52,626 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:49:52,630 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:50:26,729 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:50:26,730 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:50:26,732 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:50:26,733 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:51:46,780 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:51:46,780 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:51:46,782 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:51:46,783 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:51:54,671 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:51:54,672 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:51:54,674 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:51:54,675 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:52:11,234 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:52:11,234 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:52:11,236 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:52:11,237 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:53:53,638 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:53:53,639 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:53:53,641 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:53:53,642 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:57:18,782 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:57:18,788 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:57:18,790 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:57:18,801 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 02:58:06,463 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:58:06,464 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 02:58:06,465 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 02:58:06,466 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:00:19,354 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:00:19,354 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:00:19,356 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:00:19,357 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:00:39,108 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:00:39,110 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:00:39,112 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:00:39,114 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:02:13,953 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:02:13,954 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:02:13,956 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:02:13,956 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:02:28,624 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:02:28,636 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:02:28,638 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:02:28,638 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:02:39,789 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:02:39,790 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:02:39,792 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:02:39,792 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:02:53,811 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:02:53,812 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:02:53,826 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:02:53,826 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:03:51,548 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:03:51,548 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:03:51,550 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:03:51,551 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:04:44,008 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:04:44,009 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:04:44,011 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:04:44,015 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:06:11,783 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:06:11,785 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:06:11,787 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:06:11,788 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:06:27,402 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:06:27,403 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:06:27,405 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:06:27,406 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:06:42,641 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:06:42,643 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:06:42,645 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:06:42,646 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:09:02,625 [Worker-108] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:09:02,625 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:09:02,628 [Worker-108] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:09:02,629 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:13:10,533 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:13:10,540 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:13:10,542 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:13:10,551 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:18:33,139 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:18:33,190 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:18:33,192 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:18:33,192 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:19:33,616 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:19:33,617 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:19:33,624 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:19:33,629 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:21:14,635 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:21:14,636 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:21:14,638 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:21:14,643 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:22:25,974 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:22:25,984 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:22:25,986 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:22:25,987 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:25:56,389 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:25:56,390 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:25:56,397 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:25:56,398 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:28:01,974 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:28:01,985 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:28:01,988 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:28:01,991 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:29:40,926 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:29:40,966 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:29:40,969 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:29:40,995 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:30:07,965 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:30:07,968 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:30:07,989 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:30:07,989 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:35:13,702 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:35:13,720 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:35:13,723 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:35:13,723 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:36:15,172 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:36:15,173 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:36:15,179 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:36:15,179 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:40:29,465 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:40:29,468 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:40:29,493 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:40:29,494 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:41:02,354 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:41:02,355 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:41:02,376 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:41:02,383 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:42:19,053 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:42:19,055 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:42:19,061 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:42:19,068 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:43:28,337 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:43:28,337 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:43:28,339 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:43:28,340 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:43:41,347 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:43:41,359 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:43:41,369 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:43:41,371 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:44:05,226 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:44:05,230 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:44:05,232 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:44:05,234 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:45:01,813 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:45:01,814 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:45:01,816 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:45:01,817 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:45:43,752 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:45:43,755 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/main/resources
+2016-09-22 03:45:43,789 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-22 03:45:43,792 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment/src/test/resources
+2016-09-22 03:46:16,862 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-09-22 03:46:35,055 [Worker-110] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment
+2016-09-22 03:46:35,056 [Worker-110] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests install
