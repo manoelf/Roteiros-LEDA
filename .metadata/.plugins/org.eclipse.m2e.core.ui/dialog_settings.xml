@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/home/lucas.oliveira/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment"/>
 			<item value="/home/luke/git/Roteiros-LEDA/R16-02-Rot-ArvorePV-environment"/>
 		</list>
 		<list key="projectNameTemplate">

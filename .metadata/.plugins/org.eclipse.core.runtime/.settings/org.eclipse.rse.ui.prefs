@@ -1,6 +1,5 @@
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=97a7a1a0034b6f09cf1b65bc7799e3a5f6e09080
 eclipse.preferences.version=1
-<<<<<<< HEAD
-org.eclipse.rse.preferences.order.connections=atum.Local
-=======
-org.eclipse.rse.preferences.order.connections=luke.Local
->>>>>>> 97a7a1a0034b6f09cf1b65bc7799e3a5f6e09080
+org.eclipse.rse.preferences.order.connections=luke.Local;atum.Local
