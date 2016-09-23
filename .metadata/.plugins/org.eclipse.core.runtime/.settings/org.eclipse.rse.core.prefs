@@ -1,2 +1,7 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 org.eclipse.rse.systemtype.local.systemType.defaultUserId=lucas.oliveira
+=======
+org.eclipse.rse.systemtype.local.systemType.defaultUserId=luke
+useridperkey=luke.Local\=luke;
+>>>>>>> 97a7a1a0034b6f09cf1b65bc7799e3a5f6e09080
