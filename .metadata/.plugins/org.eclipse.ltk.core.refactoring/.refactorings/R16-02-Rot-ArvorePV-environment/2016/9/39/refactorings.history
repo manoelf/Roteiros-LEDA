@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename local variable &apos;valid&apos; in &apos;adt.rbtree.RBTreeImpl.verifyChildrenOfRedNodes(...)&apos; to &apos;ehValido&apos;&#x0A;- Original project: &apos;R16-02-Rot-ArvorePV-environment&apos;&#x0A;- Original element: &apos;adt.rbtree.RBTreeImpl.verifyChildrenOfRedNodes(RBNode&lt;T&gt;).valid&apos;&#x0A;- Renamed element: &apos;valid&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;valid&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java&lt;adt.rbtree{RBTreeImpl.java[RBTreeImpl~verifyChildrenOfRedNodes~QRBNode\&lt;QT;&gt;;@valid!1690!1710!1698!1702!Z!0!false" name="ehValido" references="true" stamp="1474525345625" version="1.0"/>
-</session>
