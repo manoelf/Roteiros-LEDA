@@ -26,8 +26,11 @@ public class BTreeImpl<T extends Comparable<T>> implements BTree<T> {
 	}
 
 	private int height(BNode<T> node) {
-		// TODO Implement your code here
-		throw new UnsupportedOperationException("Not Implemented yet!");
+		if (node.isEmpty()) {
+			return 0;
+		} else {
+			return 1 + height(node.getChildren().getFirst());
+		}
 	}
 
 	@Override
@@ -44,8 +47,25 @@ public class BTreeImpl<T extends Comparable<T>> implements BTree<T> {
 
 	@Override
 	public BNodePosition<T> search(T element) {
-		// TODO Implement your code here
-		throw new UnsupportedOperationException("Not Implemented yet!");
+		return search(root, element);
+	}
+	
+	private BNodePosition<T> search(BNode<T> node, T element) {
+		int index = 1;
+		
+		while (index <= node.size() && element.compareTo(node.getElementAt(index)) > 0) {
+			index += 1;
+		}
+		
+		if (index <= node.size() && element == node.getElementAt(index)) {
+			return new BNodePosition<T>(node, index);
+		}
+		
+		if (node.isLeaf()) {
+			return null;
+		}
+		
+		return search(node.getChildren().get(index), element);
 	}
 
 	@Override
