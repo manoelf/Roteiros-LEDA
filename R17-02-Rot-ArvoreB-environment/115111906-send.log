@@ -17,3 +17,13 @@
   <level>FINE</level>
   <message>File 115111906-LUCAS FERNANDES DE OLIVEIRA.zip was received. It was sent by LUCAS FERNANDES DE OLIVEIRA from IP 127.0.1.1</message>
 </record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2016-09-28T01:38:35.793-0300</date>
+  <logger>LUCAS FERNANDES DE OLIVEIRA</logger>
+  <level>FINE</level>
+  <message>File 115111906-LUCAS FERNANDES DE OLIVEIRA.zip was received. It was sent by LUCAS FERNANDES DE OLIVEIRA from IP 127.0.1.1</message>
+</record>
