@@ -23,7 +23,6 @@ public class SkipListImpl<T> implements SkipList<T> {
 		NIL = new SkipListNode<T>(Integer.MAX_VALUE, maxHeight, null);
 		connectRootToNil();
 		this.height = height();
-		System.out.println(height);
 	}
 
 	/**
