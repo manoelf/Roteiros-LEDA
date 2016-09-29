@@ -1,5 +1,6 @@
 package adt.skipList;
 
+@SuppressWarnings({"unchecked", "unused"})
 public class SkipListImpl<T> implements SkipList<T> {
 
 	protected SkipListNode<T> root;
@@ -35,12 +36,6 @@ public class SkipListImpl<T> implements SkipList<T> {
 		}
 	}
 
-	private void connectRootToNil(int height) {
-		for (int i = this.height + 1; i < height; i++) {
-			root.forward[i] = NIL;
-		}
-	}
-
 	/**
 	 * Metodo que gera uma altura aleatoria para ser atribuida a um novo no no
 	 * metodo insert(int,V)
@@ -56,7 +51,7 @@ public class SkipListImpl<T> implements SkipList<T> {
 	@Override
 	public void insert(int key, T newValue, int height) {
 		if (newValue != null && height >= 1 && height <= this.maxHeight) {
-
+			
 			SkipListNode<T>[] update = new SkipListNode[maxHeight];
 			SkipListNode<T> x = root;
 			for (int i = height - 1; i >= 0; i--) {
@@ -75,6 +70,7 @@ public class SkipListImpl<T> implements SkipList<T> {
 					update[i].forward[i] = x;
 				}
 			}
+			this.height = height();
 		}
 	}
 
@@ -82,7 +78,7 @@ public class SkipListImpl<T> implements SkipList<T> {
 	public void remove(int key) {
 		SkipListNode<T>[] update = new SkipListNode[maxHeight];
 		SkipListNode<T> x = root;
-		for (int i = height - 1; i >= 0; i--) {
+		for (int i = maxHeight - 1; i >= 0; i--) {
 			while (x.forward[i].key < key) {
 				x = x.forward[i];
 			}
@@ -90,30 +86,25 @@ public class SkipListImpl<T> implements SkipList<T> {
 		}
 		x = x.forward[0];
 		if (x.key == key) {
-			for (int i = 0; i < height; i++) {
+			for (int i = 0; i < maxHeight; i++) {
 				if (!update[i].forward[i].equals(x)) {
 					return;
 				}
 				update[i].forward[i] = x.forward[i];
 			}
-
-			while (height > 1 && root.forward[height].equals(NIL)) {
-				height -= 1;
-			}
+			this.height = height();
 		}
 	}
 
 	@Override
 	public int height() {
-		return height(height - 1);
-	}
-
-	private int height(int height) {
-		if (root.forward[height].key == Integer.MAX_VALUE) {
-			return height(height - 1);
-		} else {
-			return height + 1;
+		int height = maxHeight - 1;
+		System.out.println(root.forward[height].key);
+		while (root.forward[height].key == Integer.MAX_VALUE) {
+			height -= 1;
 		}
+		
+		return height + 1;
 	}
 
 	@Override
