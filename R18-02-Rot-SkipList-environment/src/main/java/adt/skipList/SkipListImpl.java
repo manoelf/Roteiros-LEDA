@@ -55,22 +55,25 @@ public class SkipListImpl<T> implements SkipList<T> {
 
 	@Override
 	public void insert(int key, T newValue, int height) {
-		SkipListNode<T>[] update = new SkipListNode[maxHeight];
-		SkipListNode<T> x = root;
-		for (int i = height - 1; i >= 0; i--) {
-			while (x.forward[i].key < key) {
-				x = x.forward[i];
+		if (newValue != null && height >= 1 && height <= this.maxHeight) {
+
+			SkipListNode<T>[] update = new SkipListNode[maxHeight];
+			SkipListNode<T> x = root;
+			for (int i = height - 1; i >= 0; i--) {
+				while (x.forward[i].key < key) {
+					x = x.forward[i];
+				}
+				update[i] = x;
 			}
-			update[i] = x;
-		}
-		x = x.forward[0];
-		if (x.key == key) {
-			x.value = newValue;
-		} else {
-			x = new SkipListNode<T>(key, height, newValue);
-			for (int i = 0; i < height; i++) {
-				x.forward[i] = update[i].forward[i];
-				update[i].forward[i] = x;
+			x = x.forward[0];
+			if (x.key == key) {
+				x.value = newValue;
+			} else {
+				x = new SkipListNode<T>(key, height, newValue);
+				for (int i = 0; i < height; i++) {
+					x.forward[i] = update[i].forward[i];
+					update[i].forward[i] = x;
+				}
 			}
 		}
 	}
