@@ -1,6 +1,6 @@
 package adt.skipList;
 
-@SuppressWarnings({"unchecked", "unused"})
+@SuppressWarnings({ "unchecked", "unused" })
 public class SkipListImpl<T> implements SkipList<T> {
 
 	protected SkipListNode<T> root;
@@ -9,7 +9,7 @@ public class SkipListImpl<T> implements SkipList<T> {
 	protected int height;
 	protected int maxHeight;
 
-	protected boolean USE_MAX_HEIGHT_AS_HEIGHT = true;
+	protected boolean USE_MAX_HEIGHT_AS_HEIGHT = false;
 	protected double PROBABILITY = 0.5;
 
 	public SkipListImpl(int maxHeight) {
@@ -31,7 +31,17 @@ public class SkipListImpl<T> implements SkipList<T> {
 	 * metodo deve conectar apenas o forward[0].
 	 */
 	private void connectRootToNil() {
-		for (int i = 0; i < this.height; i++) {
+		if (USE_MAX_HEIGHT_AS_HEIGHT) {
+			for (int i = 0; i < maxHeight; i++) {
+				root.forward[i] = NIL;
+			}
+		} else {
+			root.forward[0] = NIL;
+		}
+	}
+
+	private void connectRootToNil(int height) {
+		for (int i = this.height; i < height; i++) {
 			root.forward[i] = NIL;
 		}
 	}
@@ -50,8 +60,12 @@ public class SkipListImpl<T> implements SkipList<T> {
 
 	@Override
 	public void insert(int key, T newValue, int height) {
-		if (newValue != null && height >= 1 && height <= this.maxHeight) {
-			
+		if (newValue != null && height >= 1 && height <= maxHeight) {
+
+			if (USE_MAX_HEIGHT_AS_HEIGHT == false) {
+				connectRootToNil(height);
+			}
+
 			SkipListNode<T>[] update = new SkipListNode[maxHeight];
 			SkipListNode<T> x = root;
 			for (int i = height - 1; i >= 0; i--) {
@@ -78,7 +92,7 @@ public class SkipListImpl<T> implements SkipList<T> {
 	public void remove(int key) {
 		SkipListNode<T>[] update = new SkipListNode[maxHeight];
 		SkipListNode<T> x = root;
-		for (int i = maxHeight - 1; i >= 0; i--) {
+		for (int i = height - 1; i >= 0; i--) {
 			while (x.forward[i].key < key) {
 				x = x.forward[i];
 			}
@@ -86,24 +100,35 @@ public class SkipListImpl<T> implements SkipList<T> {
 		}
 		x = x.forward[0];
 		if (x.key == key) {
-			for (int i = 0; i < maxHeight; i++) {
+			for (int i = 0; i < height; i++) {
 				if (!update[i].forward[i].equals(x)) {
 					return;
 				}
 				update[i].forward[i] = x.forward[i];
 			}
 			this.height = height();
+			
+			if (USE_MAX_HEIGHT_AS_HEIGHT == false) {
+				for (int i = height; i < maxHeight; i++) {
+					
+					root.forward[i] = null;
+					
+					if (root.forward[0] == null) {
+						connectRootToNil();
+					}
+				}
+			}
 		}
 	}
 
 	@Override
 	public int height() {
 		int height = maxHeight - 1;
-		System.out.println(root.forward[height].key);
-		while (root.forward[height].key == Integer.MAX_VALUE) {
+
+		while (height > -1 && (root.forward[height] == null || root.forward[height].key == Integer.MAX_VALUE)) {
 			height -= 1;
 		}
-		
+
 		return height + 1;
 	}
 
