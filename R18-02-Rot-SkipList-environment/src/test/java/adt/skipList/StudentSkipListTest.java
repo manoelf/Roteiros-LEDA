@@ -28,6 +28,7 @@ public class StudentSkipListTest {
 
 	@Test
 	public void testInsert() {
+		assertEquals(0, skip.height());
 		skip.insert(10, "A", 2);
 		assertEquals(2, skip.height());
 		skip.insert(20, "B", 1);

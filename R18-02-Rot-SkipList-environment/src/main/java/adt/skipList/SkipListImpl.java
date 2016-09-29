@@ -22,6 +22,8 @@ public class SkipListImpl<T> implements SkipList<T> {
 		root = new SkipListNode<T>(Integer.MIN_VALUE, maxHeight, null);
 		NIL = new SkipListNode<T>(Integer.MAX_VALUE, maxHeight, null);
 		connectRootToNil();
+		this.height = height();
+		System.out.println(height);
 	}
 
 	/**
@@ -106,6 +108,7 @@ public class SkipListImpl<T> implements SkipList<T> {
 				}
 				update[i].forward[i] = x.forward[i];
 			}
+			
 			this.height = height();
 			
 			if (USE_MAX_HEIGHT_AS_HEIGHT == false) {
