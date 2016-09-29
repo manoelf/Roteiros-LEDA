@@ -105,7 +105,7 @@ public class SkipListImpl<T> implements SkipList<T> {
 		return height(height - 1);
 	}
 
-	public int height(int height) {
+	private int height(int height) {
 		if (root.forward[height].key == Integer.MAX_VALUE) {
 			return height(height - 1);
 		} else {
