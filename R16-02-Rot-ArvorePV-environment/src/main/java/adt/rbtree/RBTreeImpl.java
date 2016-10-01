@@ -99,9 +99,9 @@ public class RBTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements R
 
 	@Override
 	public void insert(T value) {
-		RBNode<T> node = this.insert(value, (RBNode<T>) this.root);
-		node.setColour(Colour.RED);
-		fixUpCase1(node);
+		if (value != null) {
+			this.insert(value, (RBNode<T>) getRoot());
+		}
 	}
 
 	protected RBNode<T> insert(T element, RBNode<T> node) {
@@ -113,6 +113,9 @@ public class RBTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements R
 
 			node.setRight(new RBNode<T>());
 			node.getRight().setParent(node);
+			
+			node.setColour(Colour.RED);
+			fixUpCase1(node);
 		} else {
 			if (element != node.getData()) {
 				if (element.compareTo(node.getData()) < 0) {
