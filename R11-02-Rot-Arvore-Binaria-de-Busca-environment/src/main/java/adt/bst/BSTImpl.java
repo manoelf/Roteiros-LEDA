@@ -41,7 +41,7 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
 	
 	@Override
 	public BSTNode<T> search(T element) {
-		if (element == null || this.getRoot().isEmpty()) {
+		if (element == null || this.isEmpty()) {
 			return new BSTNode<T>();
 		} else {
 			return search(element, this.getRoot());
