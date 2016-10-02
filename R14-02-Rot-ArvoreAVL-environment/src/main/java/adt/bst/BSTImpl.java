@@ -67,7 +67,7 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
 		}
 	}
 	
-	private void insert(T element, BSTNode<T> node) {
+	protected BSTNode<T> insert(T element, BSTNode<T> node) {
 		if (node.isEmpty()) {
 			node.setData(element);
 			
@@ -79,12 +79,13 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
 		} else {
 			if (element.compareTo(node.getData()) != 0) {
 				if (element.compareTo(node.getData()) < 0) {
-					insert(element, (BSTNode<T>) node.getLeft());
+					node = insert(element, (BSTNode<T>) node.getLeft());
 				} else {
-					insert(element, (BSTNode<T>) node.getRight());
+					node = insert(element, (BSTNode<T>) node.getRight());
 				}
 			}
 		}
+		return node;
 	}
 	
 	@Override
@@ -165,7 +166,7 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
 		}
 	}
 
-	private void remove(BSTNode<T> node) {
+	protected BSTNode<T> remove(BSTNode<T> node) {
 		if (node.getRight().isEmpty() && node.getLeft().isEmpty()) {
 			node.setData(null);
 			node.setLeft(null);
@@ -189,6 +190,8 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
 			sucessor.setData(value);
 			remove((BSTNode<T>) sucessor);
 		}
+		
+		return node;
 	}
 
 	@Override
