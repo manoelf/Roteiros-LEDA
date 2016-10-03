@@ -88,12 +88,15 @@ public class RBTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements R
 		}
 		return true;
 	}
-	
+
 	private boolean verifiBlackHeight(RBNode<T> node) {
-		boolean height = node.isEmpty() || (blackHeight((RBNode<T>) node.getLeft()) == blackHeight((RBNode<T>) node.getRight()));
+		boolean height = node.isEmpty()
+				|| (blackHeight((RBNode<T>) node.getLeft()) == blackHeight((RBNode<T>) node.getRight()));
+
 		if (height && !node.isEmpty()) {
 			return verifiBlackHeight((RBNode<T>) node.getLeft()) && verifiBlackHeight((RBNode<T>) node.getRight());
 		}
+
 		return height;
 	}
 
@@ -104,7 +107,7 @@ public class RBTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements R
 		}
 	}
 
-	protected RBNode<T> insert(T element, RBNode<T> node) {
+	private void insert(T element, RBNode<T> node) {
 		if (node.isEmpty()) {
 			node.setData(element);
 
@@ -113,19 +116,18 @@ public class RBTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements R
 
 			node.setRight(new RBNode<T>());
 			node.getRight().setParent(node);
-			
+
 			node.setColour(Colour.RED);
 			fixUpCase1(node);
 		} else {
 			if (element != node.getData()) {
 				if (element.compareTo(node.getData()) < 0) {
-					node = insert(element, (RBNode<T>) node.getLeft());
+					insert(element, (RBNode<T>) node.getLeft());
 				} else {
-					node = insert(element, (RBNode<T>) node.getRight());
+					insert(element, (RBNode<T>) node.getRight());
 				}
 			}
 		}
-		return node;
 	}
 
 	@Override
@@ -178,13 +180,13 @@ public class RBTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements R
 
 	protected void fixUpCase3(RBNode<T> node) {
 		RBNode<T> aux;
-		
+
 		if (node.getParent().equals(node.getParent().getParent().getLeft())) {
 			aux = (RBNode<T>) node.getParent().getParent().getRight();
 		} else {
 			aux = (RBNode<T>) node.getParent().getParent().getLeft();
 		}
-		
+
 		if (aux.getColour() == Colour.RED) {
 			((RBNode<T>) node.getParent()).setColour(Colour.BLACK);
 			aux.setColour(Colour.BLACK);
@@ -222,6 +224,202 @@ public class RBTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements R
 
 		if (node.getParent().getParent() == null) {
 			this.root = (BSTNode<T>) node.getParent();
+		}
+	}
+
+	public RBNode<T> search(T element) {
+		if (element == null || this.getRoot().isEmpty()) {
+			return new RBNode<T>();
+		} else {
+			return search(element, (RBNode<T>) this.getRoot());
+		}
+	}
+
+	private RBNode<T> search(T element, RBNode<T> node) {
+		if (node.getData().equals(element)) {
+			return node;
+		} else if (!node.getLeft().isEmpty() && node.getData().compareTo(element) > 0) {
+			return search(element, (RBNode<T>) node.getLeft());
+		} else if (!node.getRight().isEmpty() && node.getData().compareTo(element) < 0) {
+			return search(element, (RBNode<T>) node.getRight());
+		} else {
+			return new RBNode<T>();
+		}
+	}
+
+	public void remove(T element) {
+		RBNode<T> node = search(element);
+		if ((!node.isEmpty()) && (element != null)) {
+			this.remove(node);
+		}
+	}
+
+	private void remove(RBNode<T> node) {
+		if (node.isLeaf()) {
+			fixUpRemove(node);
+		} else if (node.getRight().isEmpty()) {
+			node.setData(node.getLeft().getData());
+			node.setRight(node.getLeft().getRight());
+			node.setLeft(node.getLeft().getLeft());
+			node.getRight().setParent(node);
+			node.getLeft().setParent(node);
+		} else if (node.getLeft().isEmpty()) {
+			node.setData(node.getRight().getData());
+			node.setLeft(node.getRight().getLeft());
+			node.setRight(node.getRight().getRight());
+			node.getRight().setParent(node);
+			node.getLeft().setParent(node);
+		} else {
+			T value = node.getData();
+			RBNode<T> sucessor = (RBNode<T>) sucessor(value);
+			node.setData(sucessor.getData());
+			sucessor.setData(value);
+			this.remove(sucessor);
+		}
+	}
+
+	private void fixUpRemove(RBNode<T> node) {
+		if (node.isLeaf()) {
+
+			if (node.getColour() == Colour.RED) {
+
+				node.setData(null);
+				node.setLeft(null);
+				node.setRight(null);
+				node.setColour(Colour.BLACK);
+
+			} else {
+
+				node.setData(null);
+				node.setLeft(null);
+				node.setRight(null);
+
+				if (node.getColour() == Colour.BLACK && !brother(node).isEmpty() && !brother(node).isLeaf()
+						&& brother(node).getColour() == Colour.BLACK) {
+					if (isRightChildren(node)) {
+						if (brother(node).getLeft().isEmpty() && !brother(node).getRight().isEmpty()) {
+
+							if (((RBNode<T>) node.getParent()).getColour() == Colour.RED) {
+								((RBNode<T>) node.getParent()).setColour(Colour.BLACK);
+							} else {
+								((RBNode<T>) brother(node).getRight()).setColour(Colour.BLACK);
+							}
+
+							Util.leftRotation(brother(node));
+							Util.rightRotation((BSTNode<T>) node.getParent());
+
+						} else {
+
+							if (((RBNode<T>) node.getParent()).getColour() == Colour.RED) {
+								((RBNode<T>) node.getParent()).setColour(Colour.BLACK);
+								brother(node).setColour(Colour.RED);
+								((RBNode<T>) brother(node).getLeft()).setColour(Colour.BLACK);
+							} else {
+								((RBNode<T>) brother(node).getLeft()).setColour(Colour.BLACK);
+							}
+
+							Util.rightRotation((BSTNode<T>) node.getParent());
+
+						}
+					} else {
+						if (brother(node).getRight().isEmpty() && !brother(node).getLeft().isEmpty()) {
+
+							if (((RBNode<T>) node.getParent()).getColour() == Colour.RED) {
+								((RBNode<T>) node.getParent()).setColour(Colour.BLACK);
+							} else {
+								((RBNode<T>) brother(node).getLeft()).setColour(Colour.BLACK);
+							}
+
+							Util.rightRotation(brother(node));
+							Util.leftRotation((BSTNode<T>) node.getParent());
+
+						} else {
+
+							if (((RBNode<T>) node.getParent()).getColour() == Colour.RED) {
+								((RBNode<T>) node.getParent()).setColour(Colour.BLACK);
+								brother(node).setColour(Colour.RED);
+								((RBNode<T>) brother(node).getRight()).setColour(Colour.BLACK);
+							} else {
+								((RBNode<T>) brother(node).getRight()).setColour(Colour.BLACK);
+							}
+
+							Util.leftRotation((BSTNode<T>) node.getParent());
+						}
+					}
+
+				}
+
+				else if (node.getColour() == Colour.BLACK && !brother(node).isEmpty() && brother(node).isLeaf()
+						&& brother(node).getColour() == Colour.BLACK) {
+					if (((RBNode<T>) node.getParent()).getColour() == Colour.BLACK) {
+						brother(node).setColour(Colour.RED);
+						if (verifyProperties() == false) {
+							if (brother(node).getData().compareTo(root.getData()) < 0) {
+								Util.leftRotation((BSTNode<T>) brother(node).getParent().getParent());
+							} else {
+								Util.rightRotation((BSTNode<T>) brother(node).getParent().getParent());
+							}
+						}
+					} else {
+						((RBNode<T>) node.getParent()).setColour(Colour.BLACK);
+						brother(node).setColour(Colour.RED);
+						if (verifyProperties() == false) {
+							if (brother(node).getData().compareTo(root.getData()) < 0) {
+								Util.leftRotation((BSTNode<T>) brother(node).getParent().getParent());
+							} else {
+								Util.rightRotation((BSTNode<T>) brother(node).getParent().getParent());
+							}
+						}
+					}
+				}
+
+				else if (node.getColour() == Colour.BLACK && !brother(node).isEmpty() && !brother(node).isLeaf()
+						&& brother(node).getColour() == Colour.RED) {
+					if (isRightChildren(node)) {
+						if (brother(node).getLeft().isEmpty() && !brother(node).getRight().isEmpty()) {
+
+							brother(node).setColour(Colour.BLACK);
+							((RBNode<T>) brother(node).getRight()).setColour(Colour.RED);
+
+							Util.leftRotation(brother(node));
+							Util.rightRotation((BSTNode<T>) node.getParent());
+
+						} else {
+
+							Util.rightRotation((BSTNode<T>) node.getParent());
+
+						}
+					} else {
+						if (brother(node).getRight().isEmpty() && !brother(node).getLeft().isEmpty()) {
+
+							brother(node).setColour(Colour.BLACK);
+							((RBNode<T>) brother(node).getLeft()).setColour(Colour.RED);
+
+							Util.rightRotation(brother(node));
+							Util.leftRotation((BSTNode<T>) node.getParent());
+						} else {
+
+							Util.leftRotation((BSTNode<T>) node.getParent());
+						}
+					}
+				}
+			}
+		}
+	}
+
+	private RBNode<T> brother(RBNode<T> node) {
+		if (node.getParent().getRight().equals(node)) {
+			return (RBNode<T>) node.getParent().getLeft();
+		} else {
+			return (RBNode<T>) node.getParent().getRight();
+		}
+	}
+
+	private boolean isRightChildren(RBNode<T> node) {
+		if (node.getParent().getRight().equals(node)) {
+			return true;
+		} else {
+			return false;
 		}
 	}
 }
