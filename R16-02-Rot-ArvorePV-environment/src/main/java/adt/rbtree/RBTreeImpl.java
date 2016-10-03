@@ -305,8 +305,8 @@ public class RBTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements R
 								((RBNode<T>) brother(node).getRight()).setColour(Colour.BLACK);
 							}
 
-							Util.leftRotation(brother(node));
-							Util.rightRotation((BSTNode<T>) node.getParent());
+							leftRotation(brother(node));
+							rightRotation((BSTNode<T>) node.getParent());
 
 						} else {
 
@@ -318,7 +318,7 @@ public class RBTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements R
 								((RBNode<T>) brother(node).getLeft()).setColour(Colour.BLACK);
 							}
 
-							Util.rightRotation((BSTNode<T>) node.getParent());
+							rightRotation((BSTNode<T>) node.getParent());
 
 						}
 					} else {
@@ -330,8 +330,8 @@ public class RBTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements R
 								((RBNode<T>) brother(node).getLeft()).setColour(Colour.BLACK);
 							}
 
-							Util.rightRotation(brother(node));
-							Util.leftRotation((BSTNode<T>) node.getParent());
+							rightRotation(brother(node));
+							leftRotation((BSTNode<T>) node.getParent());
 
 						} else {
 
@@ -343,33 +343,18 @@ public class RBTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements R
 								((RBNode<T>) brother(node).getRight()).setColour(Colour.BLACK);
 							}
 
-							Util.leftRotation((BSTNode<T>) node.getParent());
+							leftRotation((BSTNode<T>) node.getParent());
 						}
 					}
-
 				}
 
 				else if (node.getColour() == Colour.BLACK && !brother(node).isEmpty() && brother(node).isLeaf()
 						&& brother(node).getColour() == Colour.BLACK) {
 					if (((RBNode<T>) node.getParent()).getColour() == Colour.BLACK) {
 						brother(node).setColour(Colour.RED);
-						if (verifyProperties() == false) {
-							if (brother(node).getData().compareTo(root.getData()) < 0) {
-								Util.leftRotation((BSTNode<T>) brother(node).getParent().getParent());
-							} else {
-								Util.rightRotation((BSTNode<T>) brother(node).getParent().getParent());
-							}
-						}
 					} else {
 						((RBNode<T>) node.getParent()).setColour(Colour.BLACK);
 						brother(node).setColour(Colour.RED);
-						if (verifyProperties() == false) {
-							if (brother(node).getData().compareTo(root.getData()) < 0) {
-								Util.leftRotation((BSTNode<T>) brother(node).getParent().getParent());
-							} else {
-								Util.rightRotation((BSTNode<T>) brother(node).getParent().getParent());
-							}
-						}
 					}
 				}
 
@@ -381,12 +366,12 @@ public class RBTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements R
 							brother(node).setColour(Colour.BLACK);
 							((RBNode<T>) brother(node).getRight()).setColour(Colour.RED);
 
-							Util.leftRotation(brother(node));
-							Util.rightRotation((BSTNode<T>) node.getParent());
+							leftRotation(brother(node));
+							rightRotation((BSTNode<T>) node.getParent());
 
 						} else {
 
-							Util.rightRotation((BSTNode<T>) node.getParent());
+							rightRotation((BSTNode<T>) node.getParent());
 
 						}
 					} else {
@@ -395,14 +380,24 @@ public class RBTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements R
 							brother(node).setColour(Colour.BLACK);
 							((RBNode<T>) brother(node).getLeft()).setColour(Colour.RED);
 
-							Util.rightRotation(brother(node));
-							Util.leftRotation((BSTNode<T>) node.getParent());
+							rightRotation(brother(node));
+							leftRotation((BSTNode<T>) node.getParent());
 						} else {
 
-							Util.leftRotation((BSTNode<T>) node.getParent());
+							leftRotation((BSTNode<T>) node.getParent());
 						}
 					}
 				}
+			}
+		}
+
+		if (verifyProperties() == false) {
+			if (node.getParent().getData().compareTo(root.getData()) < 0) {
+				leftRotation(root);
+				((RBNode<T>) root).setColour(Colour.BLACK);
+			} else {
+				rightRotation(root);
+				((RBNode<T>) root).setColour(Colour.BLACK);
 			}
 		}
 	}
@@ -421,5 +416,27 @@ public class RBTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements R
 		} else {
 			return false;
 		}
+	}
+
+	// AUXILIARY
+	private void leftRotation(BSTNode<T> node) {
+		BSTNode<T> pivot = (BSTNode<T>) node.getRight();
+
+		if (this.getRoot() == node) {
+			this.root = pivot;
+		}
+
+		Util.leftRotation(node);
+	}
+
+	// AUXILIARY
+	private void rightRotation(BSTNode<T> node) {
+		BSTNode<T> pivot = (BSTNode<T>) node.getLeft();
+
+		if (this.getRoot() == node) {
+			this.root = pivot;
+		}
+
+		Util.rightRotation(node);
 	}
 }
