@@ -222,17 +222,11 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 	}
 	
 	private boolean isHeap(int index) {
-
 		if (getHeap()[0].compareTo(getHeap()[this.index]) > 0) {
-			
 			return isMaxHeap(index);
-			
 		} else {
-			
-			return isMinHeap(index);
-			
+			return isMinHeap(index);	
 		}
-
 	}
 	
 	
@@ -437,6 +431,7 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 		Comparator<Integer> comparator = (i1, i2) ->  i2.compareTo(i1);
 		HeapImpl<Integer> a = new HeapImpl<>(comparator);
 
+		a.insertD(new Integer[]{ 1,2,3,4,5,6,7,8,9 });
 		
 		System.out.println(Arrays.toString(a.heap));
 		
