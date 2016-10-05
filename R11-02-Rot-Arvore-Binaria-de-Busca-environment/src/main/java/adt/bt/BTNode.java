@@ -27,7 +27,7 @@ public class BTNode<T> {
 	public boolean isLeaf() {
 		return this.data != null && this.left.isEmpty() && this.right.isEmpty();
 	}
-	
+
 	@Override
 	public String toString() {
 		String resp = "NIL";
@@ -82,5 +82,32 @@ public class BTNode<T> {
 
 	public void setParent(BTNode<T> parent) {
 		this.parent = parent;
+	}
+
+	public void printTree() {
+		if (right != null) {
+			getRight().printTree(true, "");
+		}
+		System.out.println(this.data + "\n");
+		if (left != null) {
+			getLeft().printTree(false, "");
+		}
+	}
+
+	public void printTree(boolean isRight, String indent) {
+		if (right != null) {
+			getRight().printTree(true, indent + (isRight ? "        " : " |      "));
+		}
+		System.out.print(indent);
+		if (isRight) {
+			System.out.print(" /");
+		} else {
+			System.out.print(" \\");
+		}
+		System.out.print("----- ");
+		System.out.println(this.data + "\n");
+		if (left != null) {
+			getLeft().printTree(false, indent + (isRight ? " |      " : "        "));
+		}
 	}
 }

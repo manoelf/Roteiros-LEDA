@@ -48,7 +48,7 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 	 * indexado pela posicao i no vetor
 	 */
 	private int left(int i) {
-		int left = (i * 2) + 1;
+		int left = (2 * i) + 1;
 		if (left > index) {
 			return -1;
 		} else {
@@ -61,7 +61,7 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 	 * indexado pela posicao i no vetor
 	 */
 	private int right(int i) {
-		int right = (i + 1) * 2;
+		int right = (2 * i) + 2;
 		if (right > index) {
 			return -1;
 		} else {
