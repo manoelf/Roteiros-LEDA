@@ -223,67 +223,77 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 
 		if (getHeap()[0].compareTo(getHeap()[this.index]) > 0) {
 			
-			if (2 * index + 1 <= this.index && 2 * index + 2 > this.index) {
-				if (getHeap()[index].compareTo(getHeap()[2 * index + 1]) >= 0) {
-					return true;
-				} else {
-					return false;
-				}
-			}
-
-			else if (2 * index + 1 > this.index && 2 * index + 2 <= this.index) {
-				if (getHeap()[index].compareTo(getHeap()[2 * index + 2]) >= 0) {
-					return true;
-				} else {
-					return false;
-				}
-			}
-
-			if (index > (this.index - 2) / 2) {
-				return true;
-			}
-
-			if (2 * index + 1 <= this.index && 2 * index + 2 <= this.index) {
-				if (getHeap()[index].compareTo(getHeap()[2 * index + 1]) >= 0 && getHeap()[index].compareTo(getHeap()[2 * index + 2]) >= 0 && isHeap(2 * index + 1)
-						&& isHeap(2 * index + 2)) {
-					return true;
-				}
-			}
-
-			return false;
+			return isMaxHeap(index);
 			
 		} else {
 			
-			if (2 * index + 1 <= this.index && 2 * index + 2 > this.index) {
-				if (getHeap()[index].compareTo(getHeap()[2 * index + 1]) <= 0) {
-					return true;
-				} else {
-					return false;
-				}
-			}
-
-			else if (2 * index + 1 > this.index && 2 * index + 2 <= this.index) {
-				if (getHeap()[index].compareTo(getHeap()[2 * index + 2]) <= 0) {
-					return true;
-				} else {
-					return false;
-				}
-			}
-
-			if (index > (this.index - 2) / 2) {
-				return true;
-			}
-
-			if (2 * index + 1 <= this.index && 2 * index + 2 <= this.index) {
-				if (getHeap()[index].compareTo(getHeap()[2 * index + 1]) <= 0 && getHeap()[index].compareTo(getHeap()[2 * index + 2]) <= 0 && isHeap(2 * index + 1)
-						&& isHeap(2 * index + 2)) {
-					return true;
-				}
-			}
-
-			return false;
+			return isMinHeap(index);
+			
 		}
 
+	}
+	
+	
+	private boolean isMaxHeap(int index) {
+		if (2 * index + 1 <= this.index && 2 * index + 2 > this.index) {
+			if (getHeap()[index].compareTo(getHeap()[2 * index + 1]) >= 0) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+
+		else if (2 * index + 1 > this.index && 2 * index + 2 <= this.index) {
+			if (getHeap()[index].compareTo(getHeap()[2 * index + 2]) >= 0) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+
+		if (index > (this.index - 2) / 2) {
+			return true;
+		}
+
+		if (2 * index + 1 <= this.index && 2 * index + 2 <= this.index) {
+			if (getHeap()[index].compareTo(getHeap()[2 * index + 1]) >= 0 && getHeap()[index].compareTo(getHeap()[2 * index + 2]) >= 0 && isHeap(2 * index + 1)
+					&& isHeap(2 * index + 2)) {
+				return true;
+			}
+		}
+
+		return false;
+	}
+	
+	private boolean isMinHeap(int index) {
+		if (2 * index + 1 <= this.index && 2 * index + 2 > this.index) {
+			if (getHeap()[index].compareTo(getHeap()[2 * index + 1]) <= 0) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+
+		else if (2 * index + 1 > this.index && 2 * index + 2 <= this.index) {
+			if (getHeap()[index].compareTo(getHeap()[2 * index + 2]) <= 0) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+
+		if (index > (this.index - 2) / 2) {
+			return true;
+		}
+
+		if (2 * index + 1 <= this.index && 2 * index + 2 <= this.index) {
+			if (getHeap()[index].compareTo(getHeap()[2 * index + 1]) <= 0 && getHeap()[index].compareTo(getHeap()[2 * index + 2]) <= 0 && isHeap(2 * index + 1)
+					&& isHeap(2 * index + 2)) {
+				return true;
+			}
+		}
+
+		return false;
 	}
 	
 /*
@@ -425,7 +435,7 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 		Comparator<Integer> comparator = (i1, i2) ->  i2.compareTo(i1);
 		HeapImpl<Integer> a = new HeapImpl<>(comparator);
 
-		a.insertD(new Integer[] {1,2});
+		a.insertD(new Integer[] {1,2,3});
 		
 		System.out.println(Arrays.toString(a.heap));
 		
