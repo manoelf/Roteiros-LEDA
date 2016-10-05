@@ -212,7 +212,9 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 	}
 	
 	public boolean isHeap() {
-		if (size() <= 1) {
+		if (this == null || heap == null || isEmpty()) {
+			return false;
+		} else if (size() > 0 && size() <= 2) {
 			return true;
 		} else {
 			return isHeap(0);
@@ -435,7 +437,6 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 		Comparator<Integer> comparator = (i1, i2) ->  i2.compareTo(i1);
 		HeapImpl<Integer> a = new HeapImpl<>(comparator);
 
-		a.insertD(new Integer[] {1,2,3});
 		
 		System.out.println(Arrays.toString(a.heap));
 		
