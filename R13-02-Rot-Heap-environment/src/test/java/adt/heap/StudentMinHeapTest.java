@@ -24,7 +24,7 @@ public class StudentMinHeapTest {
 	@Test
 	public void testBuild() {
 		heap.buildHeap(new Integer[] { 82, 6, 99, 12, 34, 64, 58, 1 });
-		System.out.println(Arrays.toString(heap.toArray()));
+		
 		assertEquals(8, heap.size());
 		assertFalse(heap.isEmpty());
 

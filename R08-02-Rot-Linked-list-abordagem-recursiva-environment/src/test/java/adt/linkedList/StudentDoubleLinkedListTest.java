@@ -13,7 +13,7 @@ public class StudentDoubleLinkedListTest extends StudentLinkedListTest{
  
     @Before
     public void setUp() throws Exception {
-    	super.setUp();
+ 
         getImplementations();
  
         // Lista com 3 elementos.
@@ -45,10 +45,10 @@ public class StudentDoubleLinkedListTest extends StudentLinkedListTest{
  
     private void getImplementations(){
         //TODO O aluno deve ajustar aqui para instanciar sua implementação
-        lista1 = new RecursiveDoubleLinkedListImpl<Integer>();
-        lista2 = new RecursiveDoubleLinkedListImpl<Integer>();
-        lista3 = new RecursiveDoubleLinkedListImpl<Integer>();
-        lista4 = new RecursiveDoubleLinkedListImpl<Integer>();
+        lista1 = new RecursiveDoubleLinkedListImpl<>();
+        lista2 = new RecursiveDoubleLinkedListImpl<>();
+        lista3 = new RecursiveDoubleLinkedListImpl<>();
+        lista4 = new RecursiveDoubleLinkedListImpl<>();
     }
  
     @Test
@@ -203,22 +203,5 @@ public class StudentDoubleLinkedListTest extends StudentLinkedListTest{
     public void testRemoveLast(){
         lista1.removeLast();
         Assert.assertArrayEquals(new Integer[] { 3, 2 }, lista1.toArray());
-        
-        lista3 = new RecursiveDoubleLinkedListImpl<>();
-        lista3.insert(1);
-        lista3.insert(2);
-        lista3.insert(3);
-        lista3.insert(4);
-        lista3.insert(5);
-               
-        Assert.assertArrayEquals(new Integer[] { 1, 2, 3, 4, 5 }, lista3.toArray());
-        lista3.remove(4);
-        lista3.remove(3);
-        Assert.assertArrayEquals(new Integer[] { 1, 2, 5 }, lista3.toArray());
-        lista3.removeLast();
-        lista3.removeLast();
-        Assert.assertArrayEquals(new Integer[] { 1 }, lista3.toArray());
-        lista3.removeLast();
-        Assert.assertArrayEquals(new Integer[] {  }, lista3.toArray());
     }
 }

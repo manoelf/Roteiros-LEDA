@@ -9,16 +9,18 @@ public class StackRecursiveDoubleLinkedListImpl<T> implements Stack<T> {
 	protected int size;
 
 	public StackRecursiveDoubleLinkedListImpl(int size) {
-			this.list = new RecursiveDoubleLinkedListImpl<T>();
-			this.size = size;
+		this.list = new RecursiveDoubleLinkedListImpl<T>();
+		this.size = size;
 	}
 
 	@Override
 	public void push(T element) throws StackOverflowException {
-		if (this.size >= 0 && !isFull()) {
-			((RecursiveDoubleLinkedListImpl<T>) this.list).insert(element);
-		} else {
-			throw new StackOverflowException();
+		if (element != null) {
+			if (this.size >= 0 && !isFull()) {
+				((RecursiveDoubleLinkedListImpl<T>) this.list).insert(element);
+			} else {
+				throw new StackOverflowException();
+			}
 		}
 	}
 
