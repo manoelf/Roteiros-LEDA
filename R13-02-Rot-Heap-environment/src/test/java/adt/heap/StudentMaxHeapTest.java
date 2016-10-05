@@ -17,7 +17,7 @@ public class StudentMaxHeapTest {
 
 	@Before
 	public void setUp() {
-		Comparator<Integer> comparator = (Integer i1, Integer i2) ->((Comparable<Integer>) i2).compareTo(i1);
+		Comparator<Integer> comparator = (i1, i2) -> i1.compareTo(i2);
 		heap = new HeapImpl<Integer>(comparator);
 	}
 

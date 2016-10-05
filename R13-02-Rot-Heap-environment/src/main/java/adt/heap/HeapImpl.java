@@ -97,10 +97,10 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 
 			int minPos = pos;
 
-			if (left != -1 && getComparator().compare(heap[minPos], heap[left]) > 0) {
+			if (left != -1 && getComparator().compare(heap[minPos], heap[left]) < 0) {
 				minPos = left;
 			}
-			if (right != -1 && getComparator().compare(heap[minPos], heap[right]) > 0) {
+			if (right != -1 && getComparator().compare(heap[minPos], heap[right]) < 0) {
 				minPos = right;
 			}
 
@@ -124,7 +124,7 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 
 			int i = index;
 
-			while (i > 0 && getComparator().compare(element, this.heap[parent(i)]) < 0) {
+			while (i > 0 && getComparator().compare(element, this.heap[parent(i)]) > 0) {
 				Util.swap(heap, i, parent(i));
 				i = parent(i);
 			}
@@ -210,56 +210,191 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 	public T[] getHeap() {
 		return heap;
 	}
-
-	public boolean isHeap(int[] array, int i, int n) {
-
-		if (array[0] > array[1]) {
-
-			if (i > (n - 2) / 2) {
-				return true;
-			}
-
-			if (array[i] >= array[2 * i + 1] && array[i] >= array[2 * i + 2] && isHeap(array, 2 * i + 1, n) && isHeap(array, 2 * i + 2, n)) {
-				return true;
-			}
-
-			return false;
-
+	
+	public boolean isHeap() {
+		if (size() <= 1) {
+			return true;
 		} else {
+			return isHeap(0);
+		}
+	}
+	
+	private boolean isHeap(int index) {
 
-			if (2 * i + 1 == n) {
-				if (array[i] <= array[2 * i + 1]) {
+		if (getHeap()[0].compareTo(getHeap()[this.index]) > 0) {
+			
+			if (2 * index + 1 <= this.index && 2 * index + 2 > this.index) {
+				if (getHeap()[index].compareTo(getHeap()[2 * index + 1]) >= 0) {
+					return true;
+				} else {
+					return false;
+				}
+			}
+
+			else if (2 * index + 1 > this.index && 2 * index + 2 <= this.index) {
+				if (getHeap()[index].compareTo(getHeap()[2 * index + 2]) >= 0) {
+					return true;
+				} else {
+					return false;
+				}
+			}
+
+			if (index > (this.index - 2) / 2) {
+				return true;
+			}
+
+			if (2 * index + 1 <= this.index && 2 * index + 2 <= this.index) {
+				if (getHeap()[index].compareTo(getHeap()[2 * index + 1]) >= 0 && getHeap()[index].compareTo(getHeap()[2 * index + 2]) >= 0 && isHeap(2 * index + 1)
+						&& isHeap(2 * index + 2)) {
 					return true;
 				}
 			}
+
+			return false;
 			
-			if (i > (n - 2) / 2) {
+		} else {
+			
+			if (2 * index + 1 <= this.index && 2 * index + 2 > this.index) {
+				if (getHeap()[index].compareTo(getHeap()[2 * index + 1]) <= 0) {
+					return true;
+				} else {
+					return false;
+				}
+			}
+
+			else if (2 * index + 1 > this.index && 2 * index + 2 <= this.index) {
+				if (getHeap()[index].compareTo(getHeap()[2 * index + 2]) <= 0) {
+					return true;
+				} else {
+					return false;
+				}
+			}
+
+			if (index > (this.index - 2) / 2) {
 				return true;
 			}
 
-			if (array[i] <= array[2 * i + 1] && array[i] <= array[2 * i + 2] && isHeap(array, 2 * i + 1, n) && isHeap(array, 2 * i + 2, n)) {
-				return true;
+			if (2 * index + 1 <= this.index && 2 * index + 2 <= this.index) {
+				if (getHeap()[index].compareTo(getHeap()[2 * index + 1]) <= 0 && getHeap()[index].compareTo(getHeap()[2 * index + 2]) <= 0 && isHeap(2 * index + 1)
+						&& isHeap(2 * index + 2)) {
+					return true;
+				}
 			}
 
 			return false;
 		}
 
-		// If a leaf node
+	}
+	
+/*
+	public boolean isMaxHeap(int[] array, int i, int n) {
+
+		if (array[0] > array[1]) {
+
+			if (2 * i + 1 <= n && 2 * i + 2 > n) {
+				if (array[i] >= array[2 * i + 1]) {
+					return true;
+				} else {
+					return false;
+				}
+			}
+
+			else if (2 * i + 1 > n && 2 * i + 2 <= n) {
+				if (array[i] >= array[2 * i + 2]) {
+					return true;
+				} else {
+					return false;
+				}
+			}
+
+			if (i > (n - 2) / 2) {
+				return true;
+			}
+
+			if (2 * i + 1 <= n && 2 * i + 2 <= n) {
+				if (array[i] >= array[2 * i + 1] && array[i] >= array[2 * i + 2] && isMaxHeap(array, 2 * i + 1, n)
+						&& isMaxHeap(array, 2 * i + 2, n)) {
+					return true;
+				}
+			}
+
+			return false;
+			
+		} else {
+			
+			if (2 * i + 1 <= n && 2 * i + 2 > n) {
+				if (array[i] <= array[2 * i + 1]) {
+					return true;
+				} else {
+					return false;
+				}
+			}
+
+			else if (2 * i + 1 > n && 2 * i + 2 <= n) {
+				if (array[i] <= array[2 * i + 2]) {
+					return true;
+				} else {
+					return false;
+				}
+			}
+
+			if (i > (n - 2) / 2) {
+				return true;
+			}
+
+			if (2 * i + 1 <= n && 2 * i + 2 <= n) {
+				if (array[i] <= array[2 * i + 1] && array[i] <= array[2 * i + 2] && isMinHeap(array, 2 * i + 1, n)
+						&& isMinHeap(array, 2 * i + 2, n)) {
+					return true;
+				}
+			}
+
+			return false;
+		}
+
+	}
+
+	public boolean isMinHeap(int[] array, int i, int n) {
+
+		if (2 * i + 1 <= n && 2 * i + 2 > n) {
+			if (array[i] <= array[2 * i + 1]) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+
+		else if (2 * i + 1 > n && 2 * i + 2 <= n) {
+			if (array[i] <= array[2 * i + 2]) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+
+		if (i > (n - 2) / 2) {
+			return true;
+		}
+
+		if (2 * i + 1 <= n && 2 * i + 2 <= n) {
+			if (array[i] <= array[2 * i + 1] && array[i] <= array[2 * i + 2] && isMinHeap(array, 2 * i + 1, n)
+					&& isMinHeap(array, 2 * i + 2, n)) {
+				return true;
+			}
+		}
+
+		return false;
 
 	}
 
 	public boolean isHeapIterative(int[] array, int n) {
-		// Start from root and go till the last internal
-		// node
 
 		if (array[0] > array[1]) {
 
 			for (int i = 0; i <= (n - 2) / 2; i++) {
-				// If left child is greater, return false
 				if (array[2 * i + 1] > array[i])
 					return false;
 
-				// If right child is greater, return false
 				if (array[2 * i + 2] > array[i])
 					return false;
 			}
@@ -268,24 +403,32 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 		} else {
 
 			for (int i = 0; i <= (n - 2) / 2; i++) {
-				// If left child is greater, return false
 				if (array[2 * i + 1] < array[i])
 					return false;
 
-				// If right child is greater, return false
 				if (array[2 * i + 2] < array[i])
 					return false;
 			}
 			return true;
 		}
 	}
-
+*/
+	
+	public void insertD (T[] a) {
+			for (int i = 0; i < a.length; i++) {
+				heap[i] = a[i];
+				index++;
+			}
+	}
+	
 	public static void main(String[] args) {
-		Comparator<Integer> comparator = (Integer i1, Integer i2) -> ((Comparable<Integer>) i1).compareTo(i2);
+		Comparator<Integer> comparator = (i1, i2) ->  i2.compareTo(i1);
 		HeapImpl<Integer> a = new HeapImpl<>(comparator);
 
-		int[] b = new int[] { 45, 40, 35, 4, 25, 20, 15, 100 };
-
-		System.out.println(a.isHeap(b, 0, b.length - 1));
+		a.insertD(new Integer[] {1,2});
+		
+		System.out.println(Arrays.toString(a.heap));
+		
+		System.out.println(a.isHeap());
 	}
 }

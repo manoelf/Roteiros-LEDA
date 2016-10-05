@@ -17,7 +17,7 @@ public class StudentMinHeapTest {
 
 	@Before
 	public void setUp() {
-		Comparator<Integer> comparator = (Integer i1, Integer i2) ->((Comparable<Integer>) i1).compareTo(i2);
+		Comparator<Integer> comparator =  (i1, i2) -> i2.compareTo(i1);
 		heap = new HeapImpl<Integer>(comparator);
 	}
 
