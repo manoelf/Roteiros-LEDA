@@ -21,7 +21,11 @@ public class BNode<T extends Comparable<T>> {
 
 	@Override
 	public String toString() {
-		return this.elements.toString();
+		if (elements != null) {
+			return this.elements.toString();
+		} else {
+			return null;
+		}
 	}
 
 	@Override
@@ -68,7 +72,9 @@ public class BNode<T extends Comparable<T>> {
 	}
 
 	public void removeElement(int position) {
-		this.elements.remove(position);
+		if (position >=0 & position < elements.lenght) {
+			this.elements.remove(position);
+		}
 	}
 
 	public void addChild(int position, BNode<T> child) {
